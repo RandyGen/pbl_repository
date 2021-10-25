@@ -1,7 +1,7 @@
 FROM python:3.9-alpine
 
 RUN apk add git g++ musl-dev
-RUN git clone https://github.com/ishii1201/pbl.git myapp
+RUN git clone https://github.com/RandyGen/pbl_repository.git myapp
 
 WORKDIR myapp
 
